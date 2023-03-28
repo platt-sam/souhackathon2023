@@ -15,7 +15,7 @@
   this "should" be more efficient than standard shaker sort which is a bi-directional bubble sort. 
 
 ## pentameterEncryption
-### please input your api key into the file apikey.txt for this to work!
+# please input your api key into the file apikey.txt for this to work!
   This program uses wordsapi to get the syllables from an inputted string. the tested string is </br>
   testString = "In fair Verona where we lay our scene From ancient grudge break to new mutiny Where civil blood makes civil hands unclean"</br>
   To test other strings please edit this variable. However they MUST be a multiple of 10 syllables long. 
