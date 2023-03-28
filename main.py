@@ -1,5 +1,4 @@
 import random
-
 UPPERNUM = 6
 MAXBET = 4
 BIGPRIZMULT = 10
