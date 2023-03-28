@@ -16,10 +16,11 @@
   this "should" be more efficient than standard shaker sort which is a bi-directional bubble sort. 
 
 ## pentameterEncryption
-
-  This program uses wordsapi to get the syllables from an inputted string. the tested string is </br>
+  This program "encrypts" an input string, then decrypts it outputing the original, encrypted, and decrypted strings to the user. </br>
+  Uses wordsapi to get the syllables from an inputted string.  </br>
+  the tested string is </br>
   testString = "In fair Verona where we lay our scene From ancient grudge break to new mutiny Where civil blood makes civil hands unclean"</br>
-  To test other strings please edit this variable. However they MUST be a multiple of 10 syllables long. 
+  To test other strings please edit this variable. However they MUST be a multiple of 10 syllables long, otherwise the program rejects the input.
 
 ## isPentameter
   This program simply tests if a string is some multiple of 10 syllables long. its used in pentameter Encryption. </br>
