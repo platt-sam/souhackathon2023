@@ -9,23 +9,37 @@
   <link rel="stylesheet" href="style.css">
   <!--linking the js file-->
   <script defer src="script.js"></script>
-  <script>
-    function startTest(){} 
-  </script>
 </head>
 
 <!--this is when the actual page is started to form-->
     <body>
         <canvas id="myCanvas" width="50" height="300"></canvas>
-        <div class="container">
-            <div id="mainImage">
-
-            </div>
+        <div class="container" id="test-box">
+            <h1>To Be or Not To Be? Who are you?</h1>
+            <div id="mainImage"></div>
             <div id="text">Text</div>
-            <div id="buttons" class="btn-grid">
-                <button class="btn">Choice1</button>
-                <button class="btn">Choice2</button>
-            </div>
+            <ul>
+                <li>
+                    <input type="radio" name="choice" id="a" class="choice">
+                    <label for="a" id="aText">Answer</label> 
+                </li>
+
+                <li>
+                    <input type="radio" name="choice" id="b" class="choice">
+                    <label for="b" id="bText">Answer</label> 
+                </li>
+
+                <li>
+                    <input type="radio" name="choice" id="c" class="choice">
+                    <label for="c" id="cText">Answer</label> 
+                </li>
+
+                <li>
+                    <input type="radio" name="choice" id="d" class="choice">
+                    <label for="d" id="dText">Answer</label> 
+                </li>
+            </ul>
+            <button class="btn" id="submit">Submit</button>
         </div>
     </body>
 </html>
