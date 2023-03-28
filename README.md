@@ -12,7 +12,7 @@
   Edit the MAX_ARRAY_SIZE at the top to generate arrays of different sizes </br>
   Edit NUM_ARRAYS_TO_SORT at the top to generate this many arrays. </br>
   the program will output the input and output arrays as well as whether or not it is sorted. </br>
-  this "should" be more efficient than standard shaker sort which is a bi-directional buble sort. 
+  this "should" be more efficient than standard shaker sort which is a bi-directional bubble sort. 
 
 ## pentameterEncryption
 ### please input your api key into the file apikey.txt for this to work!
