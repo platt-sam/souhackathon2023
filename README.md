@@ -1,9 +1,14 @@
 # Submission for Hackathon 2023
-## a cocktail "SHAKER" sort...
-#### i know the pun is real. 
 
+
+## requirements 
+  requests
+  math
 # Testing:
+
   ## shakersort: python3 shakersort.py 
+  ## a cocktail "SHAKER" sort...
+  #### i know the pun is real. 
   Edit the MAX_ARRAY_SIZE at the top to generate arrays of different sizes
   Edit NUM_ARRAYS_TO_SORT at the top to generate this many arrays. 
   the program will output the input and output arrays as well as whether or not it is sorted. 
@@ -15,4 +20,5 @@
   To test other strings please edit this variable. 
 
 ## isPentameter
-  This program simply tests if a string is some multiple of 10 syllables long. Though i ran out of time so its not fully working. 
+  This program simply tests if a string is some multiple of 10 syllables long.
+  To test other test strings please edit the testString variable at the top of the file.
