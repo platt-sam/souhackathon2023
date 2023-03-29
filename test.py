@@ -1,4 +1,4 @@
-# import required module
+import playsound
 from playsound import playsound
  
 # for playing note.mp3 file

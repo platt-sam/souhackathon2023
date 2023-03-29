@@ -1,7 +1,5 @@
 import random
-# import required module
 from playsound import playsound
-
 UPPERNUM = 6
 MAXBET = 4
 BIGPRIZMULT = 5
@@ -11,7 +9,7 @@ class SlotMachine:
     maxPrizeWon = 0
     
     def __init__(self, bet=0):
-        self.name = "Juliet's Balcony Slot Machine" #if bet == 0 else "machine2"
+        self.name = "Juliet's Balcony Slot Machine" 
         self.bet = bet
         self.payOut = 0
         self.reelOne = 6
@@ -28,7 +26,6 @@ class SlotMachine:
         walkAway = False
         while not walkAway:
             print("your total bet is",self.bet,"this machine is ",self.name)
-            #print("The BIGGEST jackpot won is $%d!!!!!!!" % SlotMachine.getBigJackpot())
             print("Please make your choice:\n1. Reset.\n2. Bet one coin.\n3. Pull the handle.\n4. Walk away.")
             
             i = int(input())
@@ -41,7 +38,7 @@ class SlotMachine:
             elif i == 3:
                 print("you have chosen to pull the handle.")
                 # for playing note.mp3 file
-                playsound('sound/royal.mp3')
+                playsound('cha-ching.wav')
                 if self.bet > 0:
                     self.spinReels()
                     self.isWinner()
@@ -150,29 +147,9 @@ class SlotMachine:
         if self.payOut > SlotMachine.maxPrizeWon:
                 SlotMachine.maxPrizeWon = self.payOut
 
-#counter = 0
 
-#print("creating two slot machine objects.............................")
 slotMachine1 = SlotMachine()
-# slotMachine2 = SlotMachine(0)
 
-#display machine info
-#print(slotMachine1.toString())
-# print(slotMachine2.toString())
-
-#play both machines
-slotMachine1.play()
-# slotMachine2.play()
-
-
-#display both machine info
-#print(slotMachine1.toString())
-#  print(slotMachine2.toString())
-
-#play machine1
 slotMachine1.play()
 
-#display both machine info
-#print(slotMachine1.toString())
-#print()
-# print(slotMachine2.toString())
+slotMachine1.play()
